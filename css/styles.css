@@ -13,13 +13,6 @@
     font-size: 1.08em;
 }
 
-i.mygly {
-    font-family: "Helvetica", sans-serif;
-    font-size: 1.08em;
-    line-height: 1.42857143;
-    letter-spacing: 2px;
-}
-
 #myNavbar li a:hover,
 #myNavbar li.active a {
     color: #fff;
