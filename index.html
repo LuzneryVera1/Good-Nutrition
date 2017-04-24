@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Good Nutrition</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Luznery Vera">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/w3.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modal.js"></script>
+    <style>
+    body,
+    html {
+        height: 100%;
+        font-family: 'Leelawadee', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #000;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-topnav w3-padding-large w3-large w3-green" role="listbox">
+        <a href="#about">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="#app">App</a>
+        <a href="#login"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+        <a href="#contact" class="contact"><i class="glyphicon glyphicon-envelope mygly"> Contact</i></a>
+    </div>
+    <div class="hero hero-primary bg-image">
+        <img src="images/6968591_orig.jpg" alt="Hero Good Nutrition">
+        <div class="container">
+            <div class="hero-body">
+                <h1 class="hero-title">Welcome to Good Nutrition</h1>
+                <h2 class="hero-subtitle">A place where you will learn to eat well and stay healthy</h2>
+            </div>
+        </div>
+    </div>
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <div class="">
+            <h3 class="w3-center">ABOUT US</h3>
+            <p class="w3-center"><em>We love healthy living be part of our community</em></p>
+            <p>Good nutrition is a type of enterprise e-business, transaction costs are relatively low and the income source has its origin through advertising, its customers will be the collaborators: Nutritionists, Trainers, Universities and others wishing ad space on the web site. The purpose of the web site is provide information about good nutrition, and its benefits, also the web site present a varied content with the collaboration of nutritionists, trainers, Universities and Community.</p>
+            <div class="w3-row">
+                <div class="w3-col m6 w3-center w3-section">
+                    <img id="myimg" src="images/Neny.png" class="w3-circle" alt="founder">
+                    <p><b>Luznery Vera Founder</b></p>
+                </div>
+                <!-- Hide this text on small devices -->
+                <div class="w3-col m6 w3-hide-small w3-section">
+                    <p>“For a Good nutrition is recommended to eat a variety of foods, maintaining ideal weight, avoid excess fats, sat urated fat and cholesterol, eat foods with enough starch and fiber, and avoid excess sugar and sodium. The diet is considered balanced when it allows maintaining a proper health and provides energy, vitamins and minerals needed”.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="login" class="container-fluid modal-content1">
+        <h2>PLEASE SIGN IN</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-secondary btn-lg" id="myBtn">Login</button>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header" style="padding: 30px 10px;">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 style="color: #fff; font-size: 30px;"><span class="glyphicon glyphicon-lock"></span> Login</h4>
+                            </div>
+                            <div class="modal-body" style="padding:40px 50px;">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+                                        <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                                        <input type="password" class="form-control" id="psw" placeholder="Enter password">
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="" checked>Remember me</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                                <p>Not a member? <a href="#">Sign Up</a></p>
+                                <p>Forgot <a href="#">Password?</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="w3-content w3-container w3-padding-64">
+        <h3 class="w3-center">WHERE WE WORK</h3>
+        <p class="w3-center"><em>We'd love your feedback!</em>
+        </p>
+        <!-- Container Swing By & Contact -->
+        <div class="w3-half w3-container w3-center w3-animate-opacity" style="height:510px">
+            <div class="w3-padding-64">
+                <h1>Swing By</h1>
+            </div>
+            <div class="w3-padding-64">
+                <p>Swing by for a cup of coffee, or leave us a note:</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;Upata, VE</p>
+                <p><span class="glyphicon glyphicon-phone"></span>&nbsp;+00 1515151515</p>
+                <p><span class="glyphicon glyphicon-envelope mygly2"></span></p>
+                <div itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="email"><a href="mailto:mail@mail.com" class="contact">Email</a></span></div>
+            </div>
+        </div>
+        <!-- End Swing -->
+        <div class="w3-half w3-container" style="height:510px">
+            <!-- contact section -->
+            <div class="w3-padding-64 w3-padding-xlarge w3-center">
+                <h1>Contact</h1><span class="glyphicon glyphicon-envelope"></span>
+                <p class="w3-container w3-center w3-animate-opacity">GET IN TOUCH</p>
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-12 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <h4>Leave a Comment:</h4>
+                    <form>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-padding-xlarge">
+        <div class="top">
+            <a href="index.html" class="w3-btn w3-padding-large w3-margin-bottom">
+                <i class="fa fa-arrow-up w3-margin-right myarrow-up"></i>To the top</a>
+        </div>
+        <p class="w3-center myfooter">Powered by&nbsp;<a href="http://www.w3schools.com/w3css/default.asp" target="_blank" class="link1">w3.css</a>,&nbsp;<a href="http://getbootstrap.com" class="link2">Bootstrap</a>&nbsp;and built by&nbsp;<a href="https://twitter.com/LuzneryVera" target="_blank">@LuzneryVera</a>. Thanks to Coursera and edX for their Web Development specialization programs.</p>
+        <div class="w3-center">
+            <a href="https://www.coursera.org/" title="Coursera Courses" target="_blank"><img src="images/coursera_logo.png" alt="coursera logo" class="w3-hover-opacity logo-c"></a>
+            <a href="https://www.edx.org/" title="edX Courses" target="_blank"><img src="images/edx-logo-header.png" alt="edx logo" class="w3-hover-opacity logo-e"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

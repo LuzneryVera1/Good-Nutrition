@@ -1,0 +1,231 @@
+.w3-topnav a {
+    color: #fff;
+}
+
+.w3-topnav a:hover {
+    color: #fff;
+}
+
+i.mygly {
+    font-family: 'Leelawadee', sans-serif;
+    font-size: 1.08em;
+    line-height: 1.42857143;
+    letter-spacing: 2px;
+}
+
+i.mygly:hover {
+    color: #fff;
+}
+
+#myimg {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+a.active {
+    border-color: red;
+}
+
+b {
+    font-style: italic;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content1 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+}
+
+
+/* Add Animation */
+
+.modal-content1 {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* 100% Image Width on Smaller Screens */
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.form-group button {
+    background-color: #006ED8;
+    color: #fff !important;
+}
+
+.modal-header,
+.close {
+    background-color: green;
+    color: white !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-footer {
+    background-color: #f9f9f9;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    background-color: green;
+    color: #fff !important;
+}
+
+footer {
+    background-color: #393939;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer:hover {
+    background-color: #151414;
+}
+
+.contact:hover,
+footer a:hover {
+    color: green;
+}
+
+.logo-c {
+    height: 19px;
+}
+
+.logo-e {
+    height: 25px;
+    margin-left: 10px;
+}
+
+.top {
+    float: right;
+}
+
+.myfooter {
+    margin-top: 70px;
+}
+
+
+/***************************
+}
+Hero Modules
+***************************/
+
+.hero {
+    text-align: center;
+}
+
+.hero-primary {
+    background-color: #464646;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.hero-primary.bg-image > img {
+    opacity: 0.7;
+}
+
+.hero-body {
+    position: relative;
+}
+
+.hero-title {
+    margin-top: 145px;
+    margin-bottom: 25px;
+    font-size: 2.625em;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.hero-subtitle {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 1.500em;
+    font-weight: normal;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+
+/***************************
+Bg-Image Modules
+***************************/
+
+.bg-image {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+}
+
+.bg-image > img {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    min-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-image > img {
+        width: 250%;
+    }
+}
