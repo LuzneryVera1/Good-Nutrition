@@ -22,20 +22,21 @@
         color: #000;
     }
     
-    a.active {
-        border-color: red;
-    }
     </style>
 </head>
 
 <body class="w3-light-grey">
     <!-- Navbar (sit on top) -->
-    <div class="w3-topnav w3-padding-large w3-large w3-green" role="listbox">
-        <a href="index.html">About</a>
-        <a href="blog.html" class="active">Blog</a>
-        <a href="#app">App</a>
-        <a href="index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a>
-        <a href="index.html" class="contact"><i class="glyphicon glyphicon-envelope mygly"> Contact</i></a>
+    <div class="w3-top" role="listbox">
+        <ul class="w3-navbar" id="myNavbar">
+            <li><a href="index.html">About</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="#app">App</a></li>
+            <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li class="w3-right">
+                <a href="index2.html" class="w3-padding-large contact"><i class="glyphicon glyphicon-envelope mygly"> Contact</i></a>
+            </li>
+        </ul>
     </div>
     <!-- Header -->
     <header class="w3-container w3-center w3-padding-32">
